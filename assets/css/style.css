@@ -70,9 +70,13 @@ Estilos da página contato.html
 .formulario {
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     margin: 0%;
-    
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
 .formulario input {
@@ -85,7 +89,7 @@ Estilos da página contato.html
     border: 2px solid white;
 }
 
-.botao {
+button {
     background-color: black;
     color: white;
     width: 100px;
@@ -94,10 +98,10 @@ Estilos da página contato.html
     border: 3px solid white;
 }
 
-.botao:hover{
+button:hover{
     width: 150px;
     height: 50px;
-    transition: width 2s, height 4s;
+    transition: width 1s, height 1s;
     background-color: white;
     color: black;
 }
@@ -108,7 +112,7 @@ Estilos da página contato.html
     background-size: cover;
     text-align: center;
     font-style: italic;
-    text-decoration: underline;
+    text-align: start;
     
 }
 
@@ -138,9 +142,6 @@ Estilos da página contato.html
         
     }
 
-    .caixa{
-        width: 100%;
-    }
     
 }
 
